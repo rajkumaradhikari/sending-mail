@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: sending_email
+  server:
+    port: 9595
+netty:
+  default:
+    allocator:
+      max-order: 3
