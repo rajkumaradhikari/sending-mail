@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.citytech.global.Sending_emailTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.306 s <<< FAILURE! - in com.citytech.global.Sending_emailTest
+com.citytech.global.Sending_emailTest  Time elapsed: 3.304 s  <<< ERROR!
+io.micronaut.http.server.exceptions.ServerStartupException: Unable to start Micronaut server on *:9595
+Caused by: java.net.BindException: Address already in use: bind
+
