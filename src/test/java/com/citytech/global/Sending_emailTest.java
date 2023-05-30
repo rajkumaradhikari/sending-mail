@@ -1,7 +1,5 @@
 package com.citytech.global;
 
-import com.citytech.global.practice.AddTwoNumber;
-import com.citytech.global.test.SumTwoNumber;
 import io.micronaut.runtime.EmbeddedApplication;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.assertj.core.api.Assertions;
