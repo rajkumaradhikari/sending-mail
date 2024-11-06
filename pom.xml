@@ -19,7 +19,7 @@
         <release.version>17</release.version>
         <micronaut.version>3.8.7</micronaut.version>
         <micronaut.runtime>netty</micronaut.runtime>
-        <exec.mainClass>com.citytech.global.Application</exec.mainClass>
+        <exec.mainClass>com.test.global.Application</exec.mainClass>
     </properties>
 
     <repositories>
