@@ -1,4 +1,4 @@
-package com.citytech.global.sendmail;
+package com.test.global.sendmail;
 
 
 import jakarta.mail.*;
@@ -15,10 +15,10 @@ public class MailSender {
     public static void main(String[] args) {
 
         System.out.println("preparing to send message ...");
-        String message = "Hello , This is message from Rajkumar . ";
+        String message = "Hello , This is message from Me . ";
         String subject = "CodersArea : Confirmation";
-        String to = "shreechan.byanju@citytech.global";
-        String from = "rajkumaradhikarime@gmail.com";
+        String to = "test@test.com";
+        String from = "testtest@gmail.com";
 
 		sendEmail(message,subject,to,from);
         sendAttach(message,subject,to,from);
@@ -47,7 +47,7 @@ public class MailSender {
         Session session=Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("rajkumaradhikarime@gmail.com", "hqzkmeydjqaowfxe");
+                return new PasswordAuthentication("testtest@gmail.com", "hqzkmeydjqaowfxe");
             }
 
 
@@ -151,7 +151,7 @@ public class MailSender {
         Session session=Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("rajkumaradhikarime@gmail.com", "**********");
+                return new PasswordAuthentication("testtest@gmail.com", "**********");
             }
 
 
