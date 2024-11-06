@@ -144,7 +144,7 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>-Amicronaut.processing.group=com.citytech.global</arg>
+                        <arg>-Amicronaut.processing.group=com.tech.global</arg>
                         <arg>-Amicronaut.processing.module=sending_email</arg>
                     </compilerArgs>
                 </configuration>
